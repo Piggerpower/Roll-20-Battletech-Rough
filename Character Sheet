@@ -1,0 +1,505 @@
+<html>
+    <table border="1">
+        <tr>
+            <td>
+                Piloting
+            </td>
+            <td>
+                <input type="number" name="attr_Pilotskill" value="5"/>
+            </td>
+            <td>
+                Mechwarrior
+            </td>
+            <td>
+                <input type="text" name="attr_Pilot" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gunnery
+            </td>
+            <td>
+                <input type="number" name="attr_Pilotgunnery" value="4"/>
+            </td>
+            <td>
+                Ammo Upkeep
+            </td>
+            <td>
+                <input type="text" name="attr_AUpkeep" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Damage
+            </td>
+            <td>
+                <input type="number" name="attr_Pilotdamage" value="0"/>
+            </td>
+            <td>
+                Parts Upkeep
+            </td>
+            <td>
+                <input type="text" name="attr_PUpkeep" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                XP
+            </td>
+            <td>
+                <input type="number" name="attr_Pilotxp" value="0"/>
+            </td>
+            <td>
+                Salary Upkeep
+            </td>
+            <td>
+                <input type="text" name="attr_SUpkeep" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Heat sinks
+            </td>
+            <td>
+                <input type="number" name="attr_Sink" value="10"/>
+            </td>
+            <td>
+                Total Upkeep
+            </td>
+            <td>
+                <input type="text" name="attr_TUpkeep" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tonnage
+            </td>
+            <td>
+                <input type="number" name="attr_Weight" value="20"/>
+            </td>
+            <td>
+                BV
+            </td>
+            <td>
+                <input type="text" name="attr_BV" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Overheat
+            </td>
+            <td>
+                <input type="number" name="attr_Overheat" value="00"/>
+            </td>
+            <td>
+                Crew Experience
+            </td>
+            <td>
+                <input type="text" name="attr_CrewXP" />
+            </td>
+        </tr>
+    </table>
+    
+    </br>
+    </br>
+    <table class="mechweapons">
+        <tr>
+            <th>
+                Qty
+            </th>
+            <th>
+                Weapon Type
+            </th>
+            <th>
+                Location
+            </th>
+            <th>
+                Heat
+            </th>
+            <th>
+                Dam
+            </th>
+            <th>
+                Min
+            </th>
+            <th>
+                Short
+            </th>
+            <th>
+                Medium
+            </th>
+            <th>
+                Long
+            </th>
+            <th>
+                Ammo
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="Number" name="attr_Qty" />
+            </td>
+            <td>
+                <input type="text" name="attr_Type" />
+            </td>
+            <td>
+                <input type="text" name="attr_Loc" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Ht" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Dam" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Min" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Sht" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Med" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Lng" />
+            </td>
+            <td>
+                <input type="Number" name="attr_Ammo" />
+            </td>
+        </tr>
+        </table>
+        <fieldset class="repeating_mechweapons">
+            <tr>
+                <td>
+                    <input type="Number" name="attr_Qty1" />
+                </td>
+                <td>
+                    <input type="text" name="attr_Type1" />
+                </td>
+                <td>
+                    <input type="text" name="attr_Loc1" />
+                </td>
+                <td>
+                    <input type="Number" name="attr_Hit1" />
+                </td>
+                <td>
+                    <input type="Number" name="attr_Dam1" />
+                </td>
+                <td>
+                    <input type="Number" name="attr_Min1" />
+                </td>
+                <td>
+                    <input type="Number" name="attr_Sht1" />
+                </td>
+                <td>
+                    <input type="Number" name="attr_Med1" />
+                </td>
+                <td>
+                    <input type="Number" name="attr_Lng1" />
+                </td>
+                <td>
+                <input type="Number" name="attr_Ammo1" />
+            </td>
+            </tr>
+        </fieldset>
+    </table>
+    
+    <table border="1">
+        <tr>
+            <td>
+                <b>Left Arm</b>
+            </td>
+            <td>
+                <b>Head</b>
+            </td>
+            <td>
+                <b>Right Arm</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                A<input type="Number" value="0" name="attr_LAAC"/>/
+                <input type="Number" value="0" name="attr_LAAM"/><br>
+                I<input type="Number" value="0" name="attr_LAIC"/>/
+                <input type="Number" value="0" name="attr_LAIM"/>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_HAC"/>/
+                <input type="Number" value="0" name="attr_HAM"/><br>
+                I<input type="Number" value="0" name="attr_HIC"/>/
+                <input type="Number" value="0" name="attr_HIM"/>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_RAAC"/>/
+                <input type="Number" value="0" name="attr_RAAM"/><br>
+                I<input type="Number" value="0" name="attr_RAIC"/>/
+                <input type="Number" value="0" name="attr_RAIM"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Left Torso</b>
+            </td>
+            <td>
+                <b>Center Torso</b>
+            </td>
+            <td>
+                <b>Right Torso</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                A<input type="Number" value="0" name="attr_LTAC"/>/
+                <input type="Number" value="0" name="attr_LTAM"/><br>
+                I<input type="Number" value="0" name="attr_LTIC"/>/
+                <input type="Number" value="0" name="attr_LTIM"/>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_CTAC"/>/
+                <input type="Number" value="0" name="attr_CTAM"/><br>
+                I<input type="Number" value="0" name="attr_CTIC"/>/
+                <input type="Number" value="0" name="attr_CTIM"/>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_RTAC"/>/
+                <input type="Number" value="0" name="attr_RTAM"/><br>
+                I<input type="Number" value="0" name="attr_RTIC"/>/
+                <input type="Number" value="0" name="attr_RTIM"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Left Leg</b>
+            </td>
+            <td>
+                <b>Heat Sinks</b>
+            </td>
+            <td>
+                <b>Right Leg</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                A<input type="Number" value="0" name="attr_LLAC"/>/
+                <input type="Number" value="0" name="attr_LLAM"/><br>
+                I<input type="Number" value="0" name="attr_LLIC"/>/
+                <input type="Number" value="0" name="attr_LLIM"/>
+            </td>
+            <td>
+                <input type="Number" value="0" name="attr_HSC"/>/
+                <input type="Number" value="0" name="attr_HSM"/>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_RLAC"/>/
+                <input type="Number" value="0" name="attr_RLAM"/><br>
+                I<input type="Number" value="0" name="attr_RLIC"/>/
+                <input type="Number" value="0" name="attr_RLIM"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Back Left Torso</b>
+            </td>
+            <td>
+                <b>Back Center Torso</b>
+            </td>
+            <td>
+                <b>Back Right Torso</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                A<input type="Number" value="0" name="attr_BLTAC"/>/
+                <input type="Number" value="0" name="attr_BLTAM"/><br>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_BCTAC"/>/
+                <input type="Number" value="0" name="attr_BCTAM"/><br>
+            </td>
+            <td>
+                A<input type="Number" value="0" name="attr_BRTAC"/>/
+                <input type="Number" value="0" name="attr_BRTAM"/><br>
+            </td>
+        </tr>
+    </table>
+    
+    <table border="1">
+        <tr>
+            <td>
+                <b>Left Arm</b>
+            </td>
+            <td>
+                <b>Head</b>
+            </td>
+            <td>
+                <b>Right Arm</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="roll again" name="attr_LA11"/>
+                1 <input type="text" value="roll again" name="attr_LA12"/>
+                2 <input type="text" value="roll again" name="attr_LA13"/>
+                3 <input type="text" value="roll again" name="attr_LA14"/>
+                4 <input type="text" value="roll again" name="attr_LA15"/>
+                5 <input type="text" value="roll again" name="attr_LA16"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_H11"/>
+                1 <input type="text" value="roll again" name="attr_H12"/>
+                2 <input type="text" value="roll again" name="attr_H13"/>
+                3 <input type="text" value="roll again" name="attr_H14"/>
+                4 <input type="text" value="roll again" name="attr_H15"/>
+                5 <input type="text" value="roll again" name="attr_H16"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_RA11"/>
+                1 <input type="text" value="roll again" name="attr_RA12"/>
+                2 <input type="text" value="roll again" name="attr_RA13"/>
+                3 <input type="text" value="roll again" name="attr_RA14"/>
+                4 <input type="text" value="roll again" name="attr_RA15"/>
+                5 <input type="text" value="roll again" name="attr_RA16"/>
+                6
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="roll again" name="attr_LA21"/>
+                1 <input type="text" value="roll again" name="attr_LA22"/>
+                2 <input type="text" value="roll again" name="attr_LA23"/>
+                3 <input type="text" value="roll again" name="attr_LA24"/>
+                4 <input type="text" value="roll again" name="attr_LA25"/>
+                5 <input type="text" value="roll again" name="attr_LA26"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_H21"/>
+                1 <input type="text" value="roll again" name="attr_H22"/>
+                2 <input type="text" value="roll again" name="attr_H23"/>
+                3 <input type="text" value="roll again" name="attr_H24"/>
+                4 <input type="text" value="roll again" name="attr_H25"/>
+                5 <input type="text" value="roll again" name="attr_H26"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_RA21"/>
+                1 <input type="text" value="roll again" name="attr_RA22"/>
+                2 <input type="text" value="roll again" name="attr_RA23"/>
+                3 <input type="text" value="roll again" name="attr_RA24"/>
+                4 <input type="text" value="roll again" name="attr_RA25"/>
+                5 <input type="text" value="roll again" name="attr_RA26"/>
+                6
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Left Torso</b>
+            </td>
+            <td>
+                <b>Center Torso</b>
+            </td>
+            <td>
+                <b>Right Torso</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="roll again" name="attr_LT11"/>
+                1 <input type="text" value="roll again" name="attr_LT12"/>
+                2 <input type="text" value="roll again" name="attr_LT13"/>
+                3 <input type="text" value="roll again" name="attr_LT14"/>
+                4 <input type="text" value="roll again" name="attr_LT15"/>
+                5 <input type="text" value="roll again" name="attr_LT16"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_CT11"/>
+                1 <input type="text" value="roll again" name="attr_CT12"/>
+                2 <input type="text" value="roll again" name="attr_CT13"/>
+                3 <input type="text" value="roll again" name="attr_CT14"/>
+                4 <input type="text" value="roll again" name="attr_CT15"/>
+                5 <input type="text" value="roll again" name="attr_CT16"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_RT11"/>
+                1 <input type="text" value="roll again" name="attr_RT12"/>
+                2 <input type="text" value="roll again" name="attr_RT13"/>
+                3 <input type="text" value="roll again" name="attr_RT14"/>
+                4 <input type="text" value="roll again" name="attr_RT15"/>
+                5 <input type="text" value="roll again" name="attr_RT16"/>
+                6
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="roll again" name="attr_LT21"/>
+                1 <input type="text" value="roll again" name="attr_LT22"/>
+                2 <input type="text" value="roll again" name="attr_LT23"/>
+                3 <input type="text" value="roll again" name="attr_LT24"/>
+                4 <input type="text" value="roll again" name="attr_LT25"/>
+                5 <input type="text" value="roll again" name="attr_LT26"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_CT21"/>
+                1 <input type="text" value="roll again" name="attr_CT22"/>
+                2 <input type="text" value="roll again" name="attr_CT23"/>
+                3 <input type="text" value="roll again" name="attr_24"/>
+                4 <input type="text" value="roll again" name="attr_25"/>
+                5 <input type="text" value="roll again" name="attr_26"/>
+                6
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_RT21"/>
+                1 <input type="text" value="roll again" name="attr_RT22"/>
+                2 <input type="text" value="roll again" name="attr_RT23"/>
+                3 <input type="text" value="roll again" name="attr_RT24"/>
+                4 <input type="text" value="roll again" name="attr_RT25"/>
+                5 <input type="text" value="roll again" name="attr_RT26"/>
+                6
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Left Leg</b>
+            </td>
+            <td>
+                <b>Systems Damage</b>
+            </td>
+            <td>
+                <b>Right Leg</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="roll again" name="attr_LL11"/>
+                1 <input type="text" value="roll again" name="attr_LL12"/>
+                2 <input type="text" value="roll again" name="attr_LL13"/>
+                3 <input type="text" value="roll again" name="attr_LL14"/>
+                4 <input type="text" value="roll again" name="attr_LL15"/>
+                5 <input type="text" value="roll again" name="attr_LL16"/>
+                6
+            </td>
+            <td>
+                Engine Hits <input type="Number" value="0" name="attr_Enginehits"/> /3<br>
+                Gyro Hits <input type="Number" value="0" name="attr_Gyrohits"/> /2<br>
+                Life sup Hits <input type="Number" value="0" name="attr_Lifehits"/> /2<br>
+                Sensor Hits <input type="Number" value="0" name="attr_Sensorhits"/> /1<br>
+            </td>
+            <td>
+                <input type="text" value="roll again" name="attr_RL11"/>
+                1 <input type="text" value="roll again" name="attr_RL12"/>
+                2 <input type="text" value="roll again" name="attr_RL13"/>
+                3 <input type="text" value="roll again" name="attr_RL14"/>
+                4 <input type="text" value="roll again" name="attr_RL15"/>
+                5 <input type="text" value="roll again" name="attr_RL16"/>
+                6
+            </td>
+        </tr>
+        
+    </table>
+    
+</html>
